@@ -1,0 +1,86 @@
+.container{
+    width: 75%;
+    height:1055px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.container ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.container ul li{
+    float:left;
+    list-style: none;
+    width:20%;
+    height:250px;
+    background: #DA1E5D;
+    border-radius: 15px;
+    margin :20px 0px 20px 55px; 
+    box-sizing: border-box;
+}
+.container ul li:hover{
+    opacity: 0.8;
+}
+
+.container ul li .bottom{
+    width: 100%;
+    height:30px;
+    line-height: 50px;
+    padding-top:90px;
+    text-align: center;
+    color:white;
+    font-size: 20px;
+   
+}
+fieldset {
+    font-size:14px;
+    padding:1px;
+    width:1200px;
+    height: 700px;
+    line-height:1;
+    background:#F2F2F2 ;
+}
+
+.menu-bar
+{
+    text-align: center;
+    transform: translate(-12%, 45%);
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style-type: none;
+    color: #606060;
+
+}
+.menu-bar ul li
+{
+    width:120px;
+    margin:15px;
+    padding:15px;
+}
+.button-box{
+
+    width: 20px;
+    margin:35px auto;
+    position:relative;
+    background-color:#e0e0e0;
+    border-radius:20px; 
+    transform: translate(-15%, 5%) ;
+}
+.button-box1{
+    background-color:#606060;
+    border-radius:20px;
+    color:#E0E0E0;
+}
+
+@media screen and (max-width:1250px){
+    .container ul li{
+        width:40%;
+        margin-left: 40px;
+         
+    }
